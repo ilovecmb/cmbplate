@@ -1,4 +1,4 @@
-[
+const json = [
     {
         "plate" : "JR1322",
         "description" : "(銀色CLK)O記"
