@@ -9,6 +9,13 @@ let form_submit = ()=>{
             return false;
         }
     }
+    if (plate.substring(0, 2) === "AM"){
+        cmb_true({
+            "plate" : plate,
+            "description" : "AM車（政府車）"
+        });
+        return false;
+    }
     cmb_false();
 
     return false;
