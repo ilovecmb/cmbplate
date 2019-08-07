@@ -455,7 +455,8 @@ const json = [
         "plate" : "SB3254",
         "description" : "白色kia"
     },
-    {   "plate" : "ZG9007",
+    {   
+        "plate" : "ZG7009",
         "description" : "解放軍救護車"
     }
 ];
