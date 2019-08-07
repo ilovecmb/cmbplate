@@ -2,7 +2,7 @@ let form_submit = ()=>{
     console.log("test");
     let plate = document.getElementById("plate").value.replace(/\s/g, '').toUpperCase();
     console.log(plate);
-    
+    document.getElementById("plate").value = "";    
     for (let i =0;i<json.length;i++){
         if (json[i]["plate"] === plate){
             cmb_true(json[i]);
@@ -16,7 +16,7 @@ let form_submit = ()=>{
         });
         return false;
     }
-    cmb_false();
+    cmb_false(plate);
 
     return false;
 }
@@ -29,10 +29,10 @@ let cmb_true = info =>{
     cmb.innerHTML = "<strong>CMB plate match!</strong><br>Plate: " + info["plate"] + "<br>Description: " + info["description"] + "<br>";
 }
 
-let cmb_false = () => {
+let cmb_false = plate => {
     let cmb = document.getElementById("cmb");
     cmb.style.visibility = "visible";
     cmb.classList.add("alert-success");
     cmb.classList.remove("alert-danger");
-    cmb.innerHTML = "<strong>CMB plate not match!</strong><br>Stay alert and be water my friend!<br>";
+    cmb.innerHTML = "<strong>CMB plate not match!</strong><br>Plate: " + plate + "<br>Stay alert and be water my friend!<br>";
 }
