@@ -9,13 +9,29 @@ let form_submit = ()=>{
             return false;
         }
     }
-    if (plate.substring(0, 2) === "AM"){
+
+    switch (plate.substring(0, 2)){
+    case "AM":
         cmb_true({
             "plate" : plate,
             "description" : "AM車（政府車）"
         });
         return false;
+    case "ZG":
+        cmb_true({
+            "plate" : plate,
+            "description" : "ZG車（解放軍駐港部隊）"
+        });
+        return false;
+    case "FU":
+    case "FV":
+        cmb_true({
+            "plate" : plate,
+            "description" : "FU/FV車（<strong>可能</strong>是中國左軚車）"
+        });
+        return false;
     }
+
     cmb_false(plate);
 
     return false;
