@@ -467,4 +467,56 @@ const json = [
         "plate" : "UE7425",
         "description" : "白色小巴（政府車）"
     },
+    {
+        "plate" : "VT9974",
+        "description" : "疑似便衣"
+    },
+    {
+        "plate" : "VC5462",
+        "description" : ""
+    },
+    {
+        "plate" : "UM5497",
+        "description" : ""
+    },
+    {
+        "plate" : "UL6473",
+        "description" : ""
+    },
+    {
+        "plate" : "UM6352",
+        "description" : ""
+    },
+    {
+        "plate" : "UM6375",
+        "description" : ""
+    },
+    {
+        "plate" : "UJ5477",
+        "description" : "疑似便衣"
+    },
+    {
+        "plate" : "TW6449",
+        "description" : ""
+    },
+    {
+        "plate" : "UA4639",
+        "description" : ""
+    },
+    {
+        "plate" : "TN1700",
+        "description" : "旅遊巴"
+    },
+    {
+        "plate" : "TP9649",
+        "description" : ""
+    },
+    {
+        "plate" : "TR6149",
+        "description" : ""
+    },
+    {
+        "plate" : "TD6342",
+        "description" : ""
+    }
 ];
