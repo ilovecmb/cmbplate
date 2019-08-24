@@ -530,6 +530,9 @@ const json = [
     {
         "plate": "SZ7426",
         "description" : "黑色私家車"
+    },
+    {
+        "plate": "UX6347",
+        "description" : "黑色私家車"
     }
-
 ];
