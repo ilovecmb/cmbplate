@@ -538,5 +538,25 @@ const json = [
     {
         "plate" : "BM221",
         "description" : "紅色的士"
+    },
+    {
+        "plate" : "NH3794",
+        "description" : "便衣"
+    },
+    {
+        "plate" : "RM3295",
+        "description" : "便衣"
+    },
+    {
+        "plate" : "RV1410",
+        "description" : "便衣"
+    },
+    {
+        "plate" : "VR9576",
+        "description" : "便衣"
+    },
+    {
+        "plate" : "uK5467",
+        "description" : "便衣"
     }
 ];
