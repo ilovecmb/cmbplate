@@ -668,7 +668,7 @@ const json = [
         "description" : "白色 七人"
     },
     {
-        "plate" : "UJ2374"
+        "plate" : "UJ2374",
         "description" : "假van"
     }
 
