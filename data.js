@@ -670,6 +670,10 @@ const json = [
     {
         "plate" : "UJ2374",
         "description" : "假van"
+    },
+    {
+        "plate" : "VC2796",
+        "description" : "MAN 旅遊巴"
     }
 
 ];
